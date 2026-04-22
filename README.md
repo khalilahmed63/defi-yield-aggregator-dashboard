@@ -1,37 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 DeFi Yield Aggregator Dashboard
 
-## Getting Started
+⭐ If you find this useful, please star the repo - it helps a lot!
 
-First, run the development server:
+Compare and analyze DeFi yields across multiple protocols and chains in one clean dashboard.
+
+Built with **Next.js, TypeScript, The Graph, and Tailwind CSS**.
+
+---
+
+## 🚀 Live Demo
+
+https://defi-yield-aggregator-dashboard.vercel.app/
+
+---
+
+## 📸 Preview
+
+![Dashboard](./public/screenshots/1.png)
+![Pools](./public/screenshots/2.png)
+![Analytics](./public/screenshots/3.png)
+
+---
+
+## ✨ Features
+
+- 📊 Compare APR/APY across DeFi protocols
+- 💰 View liquidity pools and yields
+- 📈 Track TVL (Total Value Locked)
+- 🌐 Multi-chain support (Ethereum, Polygon, Arbitrum, Base)
+- 🔍 Filter by protocol, chain, and asset
+- ⚡ Fast and responsive UI
+- 🧠 Clean and intuitive dashboard design
+
+---
+
+## 💡 Why This Project
+
+DeFi yield opportunities are spread across multiple protocols and chains.
+
+Most platforms:
+- are fragmented
+- lack clarity
+- are hard to compare
+
+This dashboard provides a **unified, clean, and developer-friendly interface** to:
+- compare yields
+- analyze liquidity
+- discover opportunities
+
+---
+
+## 🧠 How It Works
+
+1. Fetch pool data from subgraphs
+2. Normalize data across protocols
+3. Calculate:
+   - APR / APY
+   - TVL
+4. Display pools in a sortable dashboard
+5. Allow filtering and comparison
+
+---
+
+## 🧪 Example Use Cases
+
+- Find highest yield opportunities
+- Compare DeFi protocols
+- Analyze liquidity trends
+- Build DeFi strategies
+- Research yield farming options
+
+---
+
+## 🧰 Tech Stack
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **The Graph (Subgraphs)**
+- **Recharts / Chart Libraries**
+
+---
+
+## ⚙️ Setup
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/khalilahmed63/defi-yield-aggregator-dashboard.git
+cd defi-yield-aggregator-dashboard
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 Supported Chains
 
-## Learn More
+- Ethereum
+- Polygon
+- Base
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📈 Roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [ ] Multi-protocol aggregation (Uniswap, Aave, Balancer)
+- [ ] Risk indicators (impermanent loss, volatility)
+- [ ] Historical yield charts
+- [ ] Portfolio tracking
+- [ ] Notifications for yield changes
+- [ ] Wallet integration
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# defi-yield-aggregator-dashboard
+Contributions are welcome!
+
+- Open issues
+- Submit pull requests
+- Suggest improvements
+
+---
+
+## 👨‍💻 Author
+
+Khalil Ahmed
+
+Frontend Engineer building Web3 analytics platforms.
+
+- Portfolio: [https://www.khalilahmed.dev](https://www.khalilahmed.dev)
+- LinkedIn: [https://www.linkedin.com/in/khalil-ahmed-308a061a6](https://www.linkedin.com/in/khalil-ahmed-308a061a6)
+- GitHub: [https://github.com/khalilahmed63](https://github.com/khalilahmed63)
+
+---
+
+## ⭐ Support
+
+If you find this project useful, please ⭐ the repo!
